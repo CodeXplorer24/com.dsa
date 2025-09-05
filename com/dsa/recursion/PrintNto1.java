@@ -6,10 +6,11 @@ public class PrintNto1 {
     }
 
     private static void printRevNum(int num) {
-        System.out.println(num);
-        if (num <= 1){
+
+        if (num <= 0){
             return;
         }
+        System.out.println(num);
         printRevNum(num-1);
     }
 }
