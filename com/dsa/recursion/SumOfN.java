@@ -1,6 +1,6 @@
 package com.dsa.recursion;
 
-public class Sum {
+public class SumOfN {
     public static void main(String[] args) {
         System.out.println(sumOfNum(5));
     }
