@@ -1,0 +1,24 @@
+There are many format specifiers we can use. Here are some common ones:
+
+%c - Character
+%d - Decimal number (base 10)
+%e - Exponential floating-point number
+%f - Floating-point number
+%i - Integer (base 10)
+%o - Octal number (base 8)
+%s - String
+%u - Unsigned decimal (integer) number
+%x - Hexadecimal number (base 16)
+%t - Date/time
+%n - Newline
+
+As strings are immutable in Java for ex String a = "Kumar" here variable
+reference from stack memory is pointing to the Kumar stored in heap memory
+and if we changed a like a = "Carl" then a will not pointing toward the
+Kumar thus it will dereference and point to carl.
+
+ String a = "Kumar"; object is Kumar
+ a = "Carl"; object changed to Carl
+
+ We can use the string builder to prevent a to build new object
+ every time its value is changed.

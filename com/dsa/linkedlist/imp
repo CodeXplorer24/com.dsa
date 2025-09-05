@@ -1,0 +1,12 @@
+
+
+ Head -> A -> B -> C -> D -> null      where D is the tail
+
+         Head is not a node itself — it’s a variable (or pointer) that stores the address of
+         the first node (A).
+         Head stores or points to the address of the first node
+         tail stores or points to the last node or element
+
+         last node points to null means there aren't any nodes next to it
+         A node contains data and pointer(reference) to the next node
+
